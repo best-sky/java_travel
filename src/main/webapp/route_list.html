@@ -25,6 +25,8 @@
             if(rname){
                 //url解码
                 rname = window.decodeURIComponent(rname);
+            }else {
+                rname = '';
             }
 
             //当页码加载完成后，调用load方法，发送ajax请求加载数据
